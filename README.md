@@ -15,10 +15,13 @@ To set up the environment:
 python -m venv myenv
 source myenv/bin/activate 
 pip install -r requirements.txt
+```
 
-
-
-# choices for model=['regression', 'classification']
+## Instructions to run
+# Choices for model=['regression', 'classification']
 # Choices for task = ['linear_regression', 'random_forest', 'xgboost']
-./run.sh --task regression --model random_forest   
+```bash 
+./run.sh --task regression --model random_forest  
+
 ./run.sh --task classification --model xgboost  
+```
