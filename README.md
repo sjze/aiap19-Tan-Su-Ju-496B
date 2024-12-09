@@ -22,12 +22,12 @@ pip install -r requirements.txt
 - Choices for model=['regression', 'classification']
 - Choices for task = ['linear_regression', 'random_forest', 'xgboost']
 ```bash 
-./run.sh --task regression --model random_forest  
+./run.sh --task  random_forest --model regression
 ```
 
 ## Instructions to run for classification Task2: Categorise combined PLANT-TYPE STAGE
 ```bash
-./run.sh --task classification --model xgboost  
+./run.sh --task xgboost --model classification
 ```
 
 
