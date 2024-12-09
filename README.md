@@ -25,5 +25,6 @@ pip install -r requirements.txt
 ```
 
 ## Instructions to run for classification Task2: Categorise combined PLANT-TYPE STAGE
+```bash
 ./run.sh --task classification --model xgboost  
 ```
