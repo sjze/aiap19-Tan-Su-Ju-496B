@@ -17,20 +17,6 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
-## File structure
-├── src
-│   ├── data_loader.py          # Data loading and SQL query handling
-│   ├── data_preprocessor.py    # Data preprocessing and feature engineering
-│   ├── model_trainer.py        # Model training and optimization
-│   ├── model_evaluator.py      # Model evaluation and metrics calculation
-│   ├── main.py                 # Main entry point for running the pipeline
-├── data
-│   └── agri.db                 # The dataset (SQLite database)
-├── .gitignore                  # Git ignore configuration
-├── README.md                   # This file
-├── requirements.txt            # List of required Python dependencies
-└── run.sh                      # Bash script to run the pipeline
-
 
 ## Instructions to run for regression. Task1: Prediction of of temperature conditions
 - Choices for model=['regression', 'classification']
