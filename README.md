@@ -18,8 +18,8 @@ pip install -r requirements.txt
 ```
 
 ## Instructions to run
-# Choices for model=['regression', 'classification']
-# Choices for task = ['linear_regression', 'random_forest', 'xgboost']
+- Choices for model=['regression', 'classification']
+- Choices for task = ['linear_regression', 'random_forest', 'xgboost']
 ```bash 
 ./run.sh --task regression --model random_forest  
 
