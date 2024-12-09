@@ -45,14 +45,6 @@ pip install -r requirements.txt
 ```
 
 
-The submitted MLP, including the `README.md`, will be used to assess your understanding of machine learning models/algorithms as well as your ability to design and develop a machine learning pipeline. Specifically, you will be assessed on
-1. Appropriate data preprocessing and feature engineering
-2. Appropriate use and optimization of algorithms/models
-3. Appropriate explanation for the choice of algorithms/models
-4. Appropriate use of evaluation metrics
-5. Appropriate explanation for the choice of evaluation metrics
-6. Understanding of the different components in the machine learning pipeline
-
 ## Data preprocessingand Feature Engineering
 - Target Column Identification: Depending on the task type (regression or classification), the appropriate target column is selected. For regression, the target is temperature (Temperature Sensor (°C)), while for classification, it's a combined label (Plant Type-Stage).
 
