@@ -17,11 +17,13 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Instructions to run
+## Instructions to run for regression. Task1: Prediction of of temperature conditions
 - Choices for model=['regression', 'classification']
 - Choices for task = ['linear_regression', 'random_forest', 'xgboost']
 ```bash 
 ./run.sh --task regression --model random_forest  
+```
 
+## Instructions to run for classification Task2: Categorise combined PLANT-TYPE STAGE
 ./run.sh --task classification --model xgboost  
 ```
