@@ -21,13 +21,10 @@ pip install -r requirements.txt
 ## Instructions to run for regression. Task1: Prediction of of temperature conditions
 - Choices for model=['regression', 'classification']
 - Choices for task = ['linear_regression', 'random_forest', 'xgboost']
-```bash 
-./run.sh --task  random_forest --model regression
-```
+- Configure model and task in a .env file. Defaults to regression and random_forest
 
-## Instructions to run for classification Task2: Categorise combined PLANT-TYPE STAGE
-```bash
-./run.sh --task xgboost --model classification
+```bash 
+./run.sh
 ```
 
 
@@ -50,4 +47,7 @@ XGBoost: Chosen for its performance in handling large datasets with boosting met
 - For regression tasks: Metrics like Mean Squared Error (MSE) and R² Score are used to assess model performance. These metrics measure the model's prediction error and how well the model fits the data.
 
 - For classification tasks: Metrics such as Accuracy, Precision, Recall, and F1-Score are used to evaluate classification performance. These metrics provide a balanced view of how well the model identifies plant stages.
+
+
+
 
