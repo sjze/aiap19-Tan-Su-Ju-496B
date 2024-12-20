@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 
 
-## Instructions to run for regression. Task1: Prediction of of temperature conditions
+## Instructions to run application
 - Choices for model=['regression', 'classification']
 - Choices for task = ['linear_regression', 'random_forest', 'xgboost']
 - Configure model and task in a .env file. Defaults to regression and random_forest
@@ -40,8 +40,8 @@ pip install -r requirements.txt
 
 - Linear regression and logistic regression models are chosen to test for comparison on scores. Tested as a baseline for the regression task but was outperformed by more complex models like Random Forest and XGBoost.
 
-Random Forest: Selected for its ability to capture complex relationships between features without overfitting.
-XGBoost: Chosen for its performance in handling large datasets with boosting methods to reduce bias and variance.
+- Random Forest: Selected for its ability to capture complex relationships between features without overfitting.
+- XGBoost: Chosen for its performance in handling large datasets with boosting methods to reduce bias and variance.
 
 ## Evaluation Metrics
 - For regression tasks: Metrics like Mean Squared Error (MSE) and R² Score are used to assess model performance. These metrics measure the model's prediction error and how well the model fits the data.
